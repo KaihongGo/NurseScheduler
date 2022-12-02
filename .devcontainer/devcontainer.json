@@ -1,0 +1,29 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.231.3/containers/python-3
+{
+    "image": "legraina/bcp",
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/common-utils:1": {
+            "installZsh": "true",
+            "installOhMyZsh": "true"
+        }
+    },
+    // Use 'postCreateCommand' to run commands after the container is created.
+    // "postCreateCommand": "pip3 install --user -r requirements.txt",
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    "remoteUser": "root",
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools",
+				"twxs.cmake"
+			]
+        }
+    },
+    "forwardPorts": []
+}
