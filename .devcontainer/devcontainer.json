@@ -4,8 +4,8 @@
     "image": "legraina/bcp",
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {},
-        "ghcr.io/devcontainers/features/common-utils:1": {
+        "ghcr.io/devcontainers/features/git:2": {},
+        "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "true",
             "installOhMyZsh": "true"
         }
