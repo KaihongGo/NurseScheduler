@@ -28,7 +28,8 @@ endif()
 add_definitions(-pedantic -Wall)
 
 # add boost
-if(${BOOST_DIR})
+if(BOOST_DIR)
+    message(BOOST_DIR: ${BOOST_DIR})
     set(Boost_INCLUDE_DIR ${BOOST_DIR})
 else()
     FIND_PACKAGE( Boost 1.48 COMPONENTS graph REQUIRED )
