@@ -1,10 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.231.3/containers/python-3
 {
-    "image": "legraina/bcp",
+    "image": "legraina/bcp:dbg",
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features": {
-        "ghcr.io/devcontainers/features/git:2": {},
+        "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "true",
             "installOhMyZsh": "true"
